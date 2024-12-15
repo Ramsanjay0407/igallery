@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-## Date:11/12/2024
+## Date:15/12/2024
 
 ## AIM:
 To design a web application for an inteactive image gallery with minimum five images.
@@ -59,7 +59,11 @@ gall.html
         <span class="close" id="close">&times;</span>
         <img class="modal-content" id="modal-img">
     </div>
-
+    
+    <footer class="footer">
+        <p>&copy; Image Gallery | Designed by: <b>RAMSANJAY C</b></p>
+    </footer>
+       
     <script src="index.js"></script>
 </body>
 </html>
@@ -84,7 +88,7 @@ closeBtn.addEventListener('click', () => {
 
 style.css
 
-body {
+body {position: absolute;
     background-color: gray;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -156,9 +160,28 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+footer{
+                    
+    background-color: black;
+   width: 6200px;
+   height: 160px;
+    
+    
+    
+   }
+
+footer p{
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    right: 500px;
+    color:rgb(248, 243, 243);
+    font-size: 40px;
+}
 
 ```
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-11 141530.png>)
+![alt text](Screenshot_15-12-2024_21016_127.0.0.1.jpeg)
+![alt text](Screenshot_15-12-2024_205527_127.0.0.1.jpeg)
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
